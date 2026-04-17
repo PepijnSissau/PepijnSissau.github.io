@@ -1,0 +1,47 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: http://localhost:63344/Labo6/Opdracht5.html?_ijt=jrsmco45ikcf3ebj5v1cnd6su7&_ij_reload=RELOAD_ON_SAVE
+Subject: Title
+Date: Fri, 17 Apr 2026 17:36:26 +0200
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--19xTnMRaSjp0NLcj90z5zkT7sd0UL7Lk9WsfykjVgV----"
+
+
+------MultipartBoundary--19xTnMRaSjp0NLcj90z5zkT7sd0UL7Lk9WsfykjVgV----
+Content-Type: text/html
+Content-ID: <frame-593ABA0D0B0BB9B83FE2E39245013438@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://localhost:63344/Labo6/Opdracht5.html?_ijt=jrsmco45ikcf3ebj5v1cnd6su7&_ij_reload=RELOAD_ON_SAVE
+
+<!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3DUTF-8">
+   =20
+    <title>Title</title>
+    <link rel=3D"stylesheet" href=3D"http://localhost:63344/Labo6/opdracht5=
+.css?jbUpdateLinksId=3D43">
+<meta id=3D"ConnectiveDocSignExtentionInstalled" name=3D"ConnectiveDocSignE=
+xtentionInstalled" data-extension-version=3D"1.0.7"></head>
+<body>
+<h1 class=3D"stippeltjesrand">hoofding</h1>
+<ul>
+    <li class=3D"stippeltjesrand">School</li>
+    <li>University</li>
+    <li>School</li>
+</ul>
+<p>Dit is een paragraaf</p>
+<a href=3D"https://oldschool.runescape.com/">Runescape</a>
+
+</body></html>
+------MultipartBoundary--19xTnMRaSjp0NLcj90z5zkT7sd0UL7Lk9WsfykjVgV----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://localhost:63344/Labo6/opdracht5.css?jbUpdateLinksId=43
+
+@charset "utf-8";
+
+a::before { background-image: url("./images/6678539.png"); height: 10px; wi=
+dth: 10px; }
+
+p::before { background: url("./images/6678539.png"); }
+------MultipartBoundary--19xTnMRaSjp0NLcj90z5zkT7sd0UL7Lk9WsfykjVgV------
