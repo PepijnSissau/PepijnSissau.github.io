@@ -1,0 +1,11 @@
+div {
+    display:inline-block;
+    width:49%;
+    box-sizing: border-box;
+    border: 1px solid;
+    margin: 2px;
+    padding: 10px;
+}
+body {
+    width: 95%;
+}
