@@ -1,0 +1,23 @@
+main > article:nth-child(even) > p > img {
+    float: right;
+    margin-left: 10px;
+}
+
+main > article:nth-child(odd) > p > img {
+    float: left;
+    margin-right: 10px;
+}
+
+article {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 1.2em;
+    border: 1px solid;
+    height: 100%;
+}
+
+article > p {
+    display: inline-block;
+    margin: 0px;
+}
+
