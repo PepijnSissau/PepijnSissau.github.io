@@ -1,0 +1,19 @@
+.row {
+    height: 100%;
+    margin: 10px;
+    margin-top: 30px;
+}
+
+.cell {
+    background: #dbdfe5;
+    height: 100%;
+    width: 100%;
+}
+
+.alt {
+    background: #abb1b8;
+}
+
+.col-md-6 {
+    margin-bottom: 10px;
+}
