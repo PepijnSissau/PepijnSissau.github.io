@@ -1,0 +1,83 @@
+html {
+    background-color: #333;
+    font-family: helvetica;
+    width: 100%;
+    font-size: 1em;
+}
+
+body {
+    margin: 5px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    background: grey;
+}
+
+main a {
+    text-decoration: none;
+    border: 1px #333 solid;
+    color: grey;
+    text-align: center;
+    display:block;
+}
+
+main div {
+    background-color: white;
+    margin: 5px;
+    box-sizing: border-box;
+    max-width: 472px;
+}
+
+header,
+footer{
+    background: #ddaa00;
+}
+
+nav {
+    background: #ccc;
+    padding: 5px 2px;
+    display: flex;
+}
+
+nav a {
+    margin: 0 5px;
+    border: 1px black solid;
+    color: #ddaa00;
+    background: white;
+    width: 20%;
+    text-decoration: none;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+/**
+### header and footer
+
+- background: #ddaa00;
+- color hyperlink:   #ddaa00; <-- ZELFDE KLEUR ZAL JE NIET ZIEN aangepast naar zwart
+**/
+header a,
+footer a {
+    color: black;
+}
+
+main img {
+    max-width: 100%;
+    height: auto;
+    padding: 0;
+}
+
+* {
+    padding: 10px;
+}
+
+@media screen and (min-width: 700px) {
+    main {
+        flex-direction: row;
+    }
+}
