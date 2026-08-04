@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>formwaarden</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+<script src="./scripts/script.js"></script>
+<form action="" method="get">
+    <table>
+        <tr>
+            <td><label for="roker">Is roker</label></td>
+            <td><input type="checkbox" id="roker" name="roker"></td>
+        </tr>
+        <tr>
+            <td>Moedertaal</td>
+            <td>
+                <label><input type="radio" name="moedertaal" class="moedertaal" value="nl"> Nederlands</label>
+                <label><input type="radio" name="moedertaal" class="moedertaal" value="fr"> Frans</label>
+                <label><input type="radio" name="moedertaal" class="moedertaal" value="en"> Engels</label>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="buurland">Favoriete buurland</label></td>
+            <td>
+                <select id="buurland" name="buurland">
+                    <option value="frankrijk">Frankrijk</option>
+                    <option value="belgie">België</option>
+                    <option value="duitsland">Duitsland</option>
+                    <option value="luxemburg">Luxemburg</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="bestelling">Bestelling</label></td>
+            <td>
+                <select id="bestelling" name="bestelling" multiple size="7">
+                    <option value="aardappelen">aardappelen</option>
+                    <option value="brood">brood</option>
+                    <option value="melk">melk</option>
+                    <option value="biefstuk">biefstuk</option>
+                    <option value="chips">chips</option>
+                    <option value="krant">krant</option>
+                </select>
+            </td>
+        </tr>
+    </table>
+    <div class="knop">
+        <button id="btnSubmit" type="button">Toon resultaat</button>
+    </div>
+</form>
+</body>
+</html>

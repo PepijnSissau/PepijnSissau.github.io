@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>formwaarden</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+<script src="./scripts/script.js"></script>
+<div class="form-container">
+    <h1>Persoonsgegevens</h1>
+    <form action="#" method="post" novalidate>
+        <div class="form-group">
+            <label for="voornaam">Voornaam</label>
+            <input type="text" id="voornaam" name="voornaam">
+            <label class="error" id="voornaamResult"></label>
+        </div>
+
+        <div class="form-group">
+            <label for="familienaam">Familienaam</label>
+            <input type="text" id="familienaam" name="familienaam">
+            <label class="error" id="familienaamResult"></label>
+        </div>
+
+        <div class="form-group">
+            <label for="geboortedatum">Geboortedatum</label>
+            <input type="text" id="geboortedatum" name="geboortedatum" placeholder="jjjj-mm-dd">
+            <label class="error" id="geboortedatumResult"></label>
+        </div>
+
+        <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="text" id="email" name="email">
+            <label class="error" id="emailResult"></label>
+        </div>
+
+        <div class="form-group">
+            <label for="aantalkinderen">Aantal kinderen</label>
+            <input type="text" id="aantalkinderen" name="aantal-kinderen">
+            <label class="error" id="aantalKinderenResult"></label>
+        </div>
+        <button type="button" id="btnSubmit">Verzenden</button>
+    </form>
+</div>
+</body>
+</html>
